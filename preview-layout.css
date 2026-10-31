@@ -1,0 +1,23 @@
+/* Give the model the whole workspace width; browsing lives underneath. */
+.realtime-badge{font-size:11px;padding:7px 10px;background:#e6ecdf;color:#45603d;border-radius:4px;white-space:nowrap}
+.precision-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.precision-canvas[hidden]{display:none!important}.precision-status{position:absolute;right:18px;top:18px;z-index:3;background:#fffdf0e8;color:#506047;padding:7px 10px;border-radius:4px;font-size:10px;pointer-events:none}#render-mode{max-width:230px}.viewport-toolbar #model{margin-right:0}.viewport-toolbar #reset-view{margin-left:auto}
+.selection-callout{position:absolute;z-index:3;padding:10px 16px;border:1px solid #6c8170;background:#fffffff2;color:#284634;border-radius:5px;max-width:230px;font-size:14px;box-shadow:0 3px 15px #24352920;pointer-events:none}.selection-callout[hidden]{display:none}.selection-leader{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:hidden}.selection-leader path{stroke:#42634d;stroke-width:1.4;fill:none}.selection-leader circle{fill:#fff;stroke:#42634d;stroke-width:1.6}
+.material-layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;align-items:start}
+.preview-column{grid-column:1/-1;grid-row:1;min-width:0}
+.library-panel{grid-column:1;grid-row:2}
+.asset-panel{grid-column:2;grid-row:2;min-width:0;padding:22px}
+#viewport{height:78vh;min-height:580px;max-height:1100px}
+.viewport-toolbar{height:48px;margin-top:0}
+.preview-controls{grid-template-columns:1fr 1fr;max-width:none}
+.material-layout .asset-grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));max-height:570px;gap:13px}
+.material-layout .asset-card img{height:115px}
+.material-layout .asset-card b{font-size:12px}
+.asset-panel .asset-filters{grid-template-columns:1fr 1fr 1fr}
+.asset-panel #resolution{grid-column:auto}
+.material-settings{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 24px}
+.material-settings h3,.material-settings>p,.material-settings .channel-links{grid-column:1/-1}
+.material-settings .solid{grid-column:1/-1;max-width:300px}
+@media(max-width:980px){.material-layout{grid-template-columns:185px minmax(0,1fr);gap:20px}#viewport{height:75vh;min-height:500px}.material-settings{grid-template-columns:repeat(2,minmax(0,1fr))}.material-layout .asset-grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}}
+@media(max-width:650px){.material-layout{display:flex;flex-direction:column}.preview-column{order:0;width:100%}.library-panel{order:1;width:100%}.asset-panel{order:2;width:100%}#viewport{height:70vh;min-height:400px;max-height:800px}.material-layout .asset-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-height:500px}.asset-panel .asset-filters{grid-template-columns:1fr 1fr}.asset-panel #resolution{grid-column:1/-1}.material-layout .asset-card img{height:110px}}
+
+.preview-controls{grid-template-columns:1.3fr .8fr 1.3fr;align-items:end}.preview-controls label output{float:right}#environment-source{font-size:10px;margin-left:5px}#environment-source[hidden]{display:none}@media(max-width:650px){.preview-controls{grid-template-columns:1fr 1fr}.preview-controls>div:last-child{grid-column:1/-1}}

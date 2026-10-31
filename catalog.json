@@ -1,0 +1,215 @@
+[
+  {
+    "id": "acg-Metal009",
+    "library": "ambient",
+    "title": "拉丝金属",
+    "asset": "Metal009",
+    "category": "金属",
+    "metalness": 1,
+    "roughness": 0.32,
+    "normalStrength": 0.25,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/materials/Metal009/Metal009_2K-JPG_Color.jpg",
+      "rough": "assets/materials/Metal009/Metal009_2K-JPG_Roughness.jpg",
+      "normal": "assets/materials/Metal009/Metal009_2K-JPG_NormalGL.jpg",
+      "metal": "assets/materials/Metal009/Metal009_2K-JPG_Metalness.jpg"
+    },
+    "source": "https://ambientcg.com/view?id=Metal009",
+    "license": "CC0",
+    "note": "原始 PBR；参数可调，尚未确认符合实物。"
+  },
+  {
+    "id": "acg-Metal027",
+    "library": "ambient",
+    "title": "粉末喷涂",
+    "asset": "Metal027",
+    "category": "涂层",
+    "metalness": 0,
+    "roughness": 0.44,
+    "normalStrength": 0.25,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/materials/Metal027/Metal027_2K-JPG_Color.jpg",
+      "rough": "assets/materials/Metal027/Metal027_2K-JPG_Roughness.jpg",
+      "normal": "assets/materials/Metal027/Metal027_2K-JPG_NormalGL.jpg",
+      "metal": "assets/materials/Metal027/Metal027_2K-JPG_Metalness.jpg"
+    },
+    "source": "https://ambientcg.com/view?id=Metal027",
+    "license": "CC0",
+    "note": "原始 PBR；参数可调，尚未确认符合实物。"
+  },
+  {
+    "id": "acg-Plastic012A",
+    "library": "ambient",
+    "title": "细纹黑塑料",
+    "asset": "Plastic012A",
+    "category": "塑料",
+    "metalness": 0,
+    "roughness": 0.52,
+    "normalStrength": 0.25,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/materials/Plastic012A/Plastic012A_1K-JPG_Color.jpg",
+      "rough": "assets/materials/Plastic012A/Plastic012A_1K-JPG_Roughness.jpg",
+      "normal": "assets/materials/Plastic012A/Plastic012A_1K-JPG_NormalGL.jpg"
+    },
+    "source": "https://ambientcg.com/view?id=Plastic012A",
+    "license": "CC0",
+    "note": "原始 PBR；参数可调，尚未确认符合实物。"
+  },
+  {
+    "id": "acg-Plastic013A",
+    "library": "ambient",
+    "title": "工程塑料",
+    "asset": "Plastic013A",
+    "category": "塑料",
+    "metalness": 0,
+    "roughness": 0.34,
+    "normalStrength": 0.25,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/materials/Plastic013A/Plastic013A_1K-JPG_Color.jpg",
+      "rough": "assets/materials/Plastic013A/Plastic013A_1K-JPG_Roughness.jpg",
+      "normal": "assets/materials/Plastic013A/Plastic013A_1K-JPG_NormalGL.jpg"
+    },
+    "source": "https://ambientcg.com/view?id=Plastic013A",
+    "license": "CC0",
+    "note": "原始 PBR；参数可调，尚未确认符合实物。"
+  },
+  {
+    "id": "acg-Rubber001",
+    "library": "ambient",
+    "title": "颗粒橡胶",
+    "asset": "Rubber001",
+    "category": "橡胶",
+    "metalness": 0,
+    "roughness": 0.78,
+    "normalStrength": 0.25,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/materials/Rubber001/Rubber001_1K-JPG_Color.jpg",
+      "rough": "assets/materials/Rubber001/Rubber001_1K-JPG_Roughness.jpg",
+      "normal": "assets/materials/Rubber001/Rubber001_1K-JPG_NormalGL.jpg"
+    },
+    "source": "https://ambientcg.com/view?id=Rubber001",
+    "license": "CC0",
+    "note": "原始 PBR；参数可调，尚未确认符合实物。"
+  },
+  {
+    "id": "ph-metal_plate",
+    "library": "poly",
+    "title": "原色金属板",
+    "asset": "metal_plate",
+    "category": "金属",
+    "metalness": 1,
+    "roughness": 0.4,
+    "normalStrength": 0.18,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/polyhaven/metal_plate/color.jpg",
+      "rough": "assets/polyhaven/metal_plate/rough.jpg",
+      "normal": "assets/polyhaven/metal_plate/normal.jpg",
+      "metal": "assets/polyhaven/metal_plate/metal.jpg"
+    },
+    "source": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0",
+    "note": "含使用痕迹，用于工艺对比；并非新机默认材质。",
+    "downloads": {
+      "color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_diff_1k.jpg",
+      "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_rough_1k.jpg",
+      "normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_nor_gl_1k.jpg",
+      "metal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_metal_1k.jpg"
+    }
+  },
+  {
+    "id": "ph-metal_plate_02",
+    "library": "poly",
+    "title": "金属板 · 细节对比",
+    "asset": "metal_plate_02",
+    "category": "金属",
+    "metalness": 1,
+    "roughness": 0.4,
+    "normalStrength": 0.18,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/polyhaven/metal_plate_02/color.jpg",
+      "rough": "assets/polyhaven/metal_plate_02/rough.jpg",
+      "normal": "assets/polyhaven/metal_plate_02/normal.jpg",
+      "metal": "assets/polyhaven/metal_plate_02/metal.jpg"
+    },
+    "source": "https://polyhaven.com/a/metal_plate_02",
+    "license": "CC0",
+    "note": "含使用痕迹，用于工艺对比；并非新机默认材质。",
+    "downloads": {
+      "color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_diff_1k.jpg",
+      "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_rough_1k.jpg",
+      "normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_nor_gl_1k.jpg",
+      "metal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_metal_1k.jpg"
+    }
+  },
+  {
+    "id": "ph-blue_metal_plate",
+    "library": "poly",
+    "title": "蓝色喷涂金属板",
+    "asset": "blue_metal_plate",
+    "category": "涂层",
+    "metalness": 0,
+    "roughness": 0.5,
+    "normalStrength": 0.18,
+    "normalY": 1,
+    "maps": {
+      "color": "assets/polyhaven/blue_metal_plate/color.jpg",
+      "rough": "assets/polyhaven/blue_metal_plate/rough.jpg",
+      "normal": "assets/polyhaven/blue_metal_plate/normal.jpg"
+    },
+    "source": "https://polyhaven.com/a/blue_metal_plate",
+    "license": "CC0",
+    "note": "含使用痕迹，用于工艺对比；并非新机默认材质。",
+    "downloads": {
+      "color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_metal_plate/blue_metal_plate_diff_1k.jpg",
+      "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_metal_plate/blue_metal_plate_rough_1k.jpg",
+      "normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_metal_plate/blue_metal_plate_nor_gl_1k.jpg"
+    }
+  },
+  {
+    "id": "cb-BrushedIron01",
+    "library": "cgbook",
+    "title": "细拉丝铁",
+    "asset": "BrushedIron01",
+    "category": "金属",
+    "metalness": 1,
+    "roughness": 0.35,
+    "normalStrength": 0.2,
+    "normalY": -1,
+    "maps": {
+      "color": "assets/cgbook/BrushedIron01/BrushedIron01_1K_BaseColor.png",
+      "rough": "assets/cgbook/BrushedIron01/BrushedIron01_1K_Roughness.png",
+      "normal": "assets/cgbook/BrushedIron01/BrushedIron01_1K_Normal.png",
+      "metal": "assets/cgbook/BrushedIron01/BrushedIron01_1K_Metallic.png"
+    },
+    "source": "https://www.cgbookcase.com/textures/brushed-iron-01",
+    "license": "CC0",
+    "note": "1K 原始 PBR；DirectX 法线已在预览中转换。"
+  },
+  {
+    "id": "cb-PaintedMetal03",
+    "library": "cgbook",
+    "title": "喷漆金属",
+    "asset": "PaintedMetal03",
+    "category": "涂层",
+    "metalness": 0,
+    "roughness": 0.42,
+    "normalStrength": 0.2,
+    "normalY": -1,
+    "maps": {
+      "color": "assets/cgbook/PaintedMetal03/PaintedMetal03_1K_BaseColor.png",
+      "rough": "assets/cgbook/PaintedMetal03/PaintedMetal03_1K_Roughness.png",
+      "normal": "assets/cgbook/PaintedMetal03/PaintedMetal03_1K_Normal.png",
+      "metal": "assets/cgbook/PaintedMetal03/PaintedMetal03_1K_Metallic.png"
+    },
+    "source": "https://www.cgbookcase.com/textures/painted-metal-03",
+    "license": "CC0",
+    "note": "1K 原始 PBR；DirectX 法线已在预览中转换。"
+  }
+]
